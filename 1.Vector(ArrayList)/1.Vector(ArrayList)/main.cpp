@@ -38,6 +38,8 @@ int main()
 	vec.push_back(150);
 	vec.push_back(160);
 
+	vec2 = vec;
+
 	size_t size = vec.capacity();
 
 	for (int i = 0; i < vec.size(); ++i)
